@@ -7,7 +7,8 @@
 #ifndef CORE_CALCULATOR_H_
 #define CORE_CALCULATOR_H_
 /* Internal Includes */
-#include "Core/ExportControl.h"
+// IDW: Removed 2020-04-20 as we want static linking so no need for exporting
+// #include "Core/ExportControl.h"
 /* External Includes */
 #include <Eigen/Core>
 #include <memory>
